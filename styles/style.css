@@ -96,3 +96,122 @@ header{
 .fa-solid{
     color: #16D887;
 }
+
+/* section my plans */
+.my-plans>h1{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700; 
+    text-align: center;
+}
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.logo-container img{
+    width: 92.958px;
+    height: 92.958px;
+    margin-bottom: 30px;
+}
+.logo-container>h2{
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.logo-container p{
+    color: #737272;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.logo-container>div{
+    margin: 80px 30px;
+    text-align: center;
+}
+.contact-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 130px;
+}
+.contact{
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%),url(../images/watch.png);
+    width: 1140px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.contact h1{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 60px 0 0 60px;
+}
+.contact .btn{
+    border-radius: 5px;
+    background: #FFF;
+    float: left;
+    color: #F15B22;
+    margin: 10px 0 0 60px;
+}
+
+/* footer */
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    height: 577px;
+}
+footer .btn1{
+        border-radius: 5px;
+        background: #FFF;
+        color: #F15B22;
+        font-size: 20px;
+        font-weight: 600;
+        padding: 20px 36px;
+    }
+.column:first-child{
+    margin-right: 30px;
+}
+.column:last-child{
+    margin-left: 30px;
+}
+.column h1{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    }
+.column h2{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+}
+.column p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+.column img{
+    margin: 0 5px;
+}
+.column input{
+    display: block;
+    padding: 20px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: 325px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+.column input::placeholder{
+    color: #fff;
+    font-size: 18px;
+}
+.column{
+    margin-top: 150px;
+}
