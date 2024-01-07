@@ -19,7 +19,10 @@
     padding: 20px 25px;
     float: right;
 }
-
+.clear-float{
+    clear: both;
+    display: block;
+}
 
 
 
@@ -41,10 +44,55 @@ header{
     text-align: right;
     font-size: 65px;
     font-weight: 700;
+    margin-bottom: 20px;
 }
 .header-text>p{
     color: #444343;
     text-align: right;
     font-size: 16px;
     font-weight: 400;
+    margin-bottom: 20px;
+}
+
+/* section my failures */
+.my-failures{
+    display: flex;
+    margin-top: 130px;
+    justify-content: center
+}
+
+.failure-img{
+    width: 451px;
+    height: 898px;
+    margin-right: 130px;
+}
+
+.failur-text{
+    margin-top: 300px;
+    margin-left: 100px;
+}
+
+.failur-text>h1{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.failur-text>p{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.failur-text>ul>li{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    list-style: none;
+}
+
+.fa-solid{
+    color: #16D887;
 }
